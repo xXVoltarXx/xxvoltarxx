@@ -48,14 +48,14 @@
 									<h2>Producer Goal</h2>
 									<h3>Lead a Small and Nimble Team and Play to Everyone's Strengths</h3>
 									<p>
-										Spell Forge is an ambitious project for a small team of 7. Full deterministic physics utilizing Photon Quantum, 2 Massive Maps with hordes of enemies and a final boss, PvPvE Spellcrafting gameplay inspired by <i>Noita</i> with a final BuildvBuildvBuildvBuild battle at the end, 14 Unique Primary Artifacts and 12 Enchantments that can stack and augment them, and a Retro Aesthetic along with so much more. Granted, while I didn't expect the game to have this content when I first joined the project, I always knew from the beginning that I was going to have to keep this team nimble and utilizes everyone's strengths to optimize our efficency. These exact traits and ideas are why I was chosen to be a Producer on this project <b>according to my own professor.</b> However, there was one hurdle I had to overcome...
+										Spell Forge is an ambitious project for a small team of 7. Full deterministic physics utilizing Photon Quantum, 2 Massive Maps with hordes of enemies and a final boss, PvPvE Spellcrafting gameplay inspired by <i>Noita</i> with a final BuildvBuildvBuildvBuild battle at the end, 14 Unique Primary Artifacts and 12 Enchantments that can stack and augment them, and a Retro Aesthetic along with so much more. Granted, while I didn't expect the game to have this content when I first joined the project, I always knew from the beginning that I was going to have to keep this team nimble and utilizes everyone's strengths to optimize our efficiency. These exact traits and ideas are why I was chosen to be a Producer on this project <b>according to my own professor.</b> However, there was one hurdle I had to overcome...
 									</p>
 									<h3>Being a Producer and Expanding the Team on a Project Where Half of the People Have Been Working Together on it for a Month Already</h3>
 									<p>
 										This hurdle is the one that I was most worried about, and it's a hurdle I overcame quickly. Due to my prior work experience with my team members, I was able to integrate smoothly and help the team grow without disrupting the existing dynamics. <b>By also talking to and understanding the development of certain aspects of the game for Disciplines I don't consider myself a part of, like Art, I was able to create and manage tasks efficiently and keep the project on track.</b>
 									</p>
 									<p>
-										I also utilized <b>Trello</b>, <b>Miro Boards</b>, <b>Waterfall Methodology</b>, <b>Disclipline Meetings</b>, and created a <b>project-and-discpline-wide Asset List</b> to help everone on the project stay on track and know what tasks to prioritize. This was especially helpful when the <b>Main Design of the Game</b> had to <b>Pivot to Something Else.</b>
+										I also utilized <b>Trello</b>, <b>Miro Boards</b>, <b>Waterfall Methodology</b>, <b>Discipline Meetings</b>, and created a <b>project-and-discipline-wide Asset List</b> to help everyone on the project stay on track and know what tasks to prioritize. This was especially helpful when the <b>Main Design of the Game</b> had to <b>Pivot to Something Else.</b>
 									</p>
 								</div>
 							</div>
@@ -103,10 +103,10 @@
 									</p>
 									<h3>Solution - Convey Information with the Camera</h3>
 									<p>
-										By switching the camera over to Unity's <i>Cinemachine Camera System,</i> I was easily able to add in screen shake for player damage and for nearby explosions (with falloff!). This used Cinemachine's <i>Implulse Source</i> and <i>Impulse Listener</i> components to great effect. Each player, both locally and on online, were <b>assigned a special index</b> and <b>put on a special channel.</b> So, when they took damage their character would send out an <i>Impulse Source</i> and their camera would react to it via <i>Impulse Listener</i>. With explosions, a Designer would just need to have it broadcast an <i>Impulse Source</i> on all channels and, due to falloff, only players close enough to the explosion would have their camera react to it. <b>This greatly reduced player confusion and resulted in them becoming more knowledgeable about their current player state.</b>
+										By switching the camera over to Unity's <i>Cinemachine Camera System,</i> I was easily able to add in screen shake for player damage and for nearby explosions (with falloff!). This used Cinemachine's <i>Impulse Source</i> and <i>Impulse Listener</i> components to great effect. Each player, both locally and on online, were <b>assigned a special index</b> and <b>put on a special channel.</b> So, when they took damage their character would send out an <i>Impulse Source</i> and their camera would react to it via <i>Impulse Listener</i>. With explosions, a Designer would just need to have it broadcast an <i>Impulse Source</i> on all channels and, due to falloff, only players close enough to the explosion would have their camera react to it. <b>This greatly reduced player confusion and resulted in them becoming more knowledgeable about their current player state.</b>
 									</p>
 									<p>
-										This system also allowed me to utilize Render Textures too in order to enhance the VFX of the game that I made, which can be seen in more detail here: <a href="https://www.artstation.com/artwork/Ov5nQy">Spell Forge VFX</a>
+										This system also allowed me to utilize Render Textures too in order to enhance the VFX of the game that I made, which can be seen in more detail here: <a href="https://www.artstation.com/artwork/Ov5nQy"><i>Spell Forge VFX</i></a>
 									</p>
 									<span class="image fit">
 										<img src="/images/projects/SpellForge/SpellForgeRenderTextureSolution.gif" alt="">
@@ -131,7 +131,7 @@
 									</p>
 									<h3>Result</h3>
 									<p>
-										This had an immediate postive effect on players' ability to learn and remember the controls. It also made the game more accessible to new players who may not be familiar with the controls yet which resulted in them giving us better playtesting feedback.
+										This had an immediate positive effect on players' ability to learn and remember the controls. It also made the game more accessible to new players who may not be familiar with the controls yet which resulted in them giving us better playtesting feedback.
 									</p>
 								</div>
 								<div class="col-6 col-12-medium">

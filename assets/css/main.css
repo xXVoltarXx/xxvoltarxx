@@ -4022,3 +4022,42 @@ body #main.wrapper > .inner {
   overflow-x: auto;               /* scroll horizontally if needed */
   display: block;                 /* ensures it behaves like a block */
 }
+
+#main .content-box.title-box {
+  max-width: 700px;
+
+  margin: 6rem auto 4rem auto;
+
+  padding: 2.5rem 4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+/* Remove default heading spacing */
+#main .content-box.title-box h1,
+#main .content-box.title-box h2,
+#main .content-box.title-box h3 {
+  margin: 0;
+}
+
+/* Tablet */
+@media (max-width: 980px) {
+  #main .content-box.title-box {
+    margin: 4rem auto 3rem auto;
+
+    padding: 2rem 2rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 736px) {
+  #main .content-box.title-box {
+    margin: 3rem 1.5rem;
+
+    padding: 1.75rem 1.5rem;
+  }
+}
